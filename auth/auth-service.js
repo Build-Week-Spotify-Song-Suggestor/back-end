@@ -3,5 +3,5 @@ module.exports = {
 };
 
 function isValid(user) {
-    return Boolean(user.email && user.password && typeof user.email === "string");
+    return Boolean(user.email && user.password && typeof user.email === "email");
 }
